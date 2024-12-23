@@ -27,7 +27,7 @@ const settings = {
   slidesToScroll: 1,
 };
 
-export default function Carousel() {
+export default function HomeCard() {
   const [slider, setSlider] = useState(null);
   const [animationKey, setAnimationKey] = useState(Math.random());
 
