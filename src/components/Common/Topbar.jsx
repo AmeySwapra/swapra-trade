@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import RegistrationModal from "./RegistrationModal"; // Import the modal component
+import RegistrationModal from "./RegistrationModal"; 
 
 function Topbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -107,7 +107,7 @@ function Topbar() {
         </Flex>
       </Container>
 
-      {/* Registration Modal */}
+     
       <RegistrationModal isOpen={isOpen} onClose={onClose} />
     </Box>
   );

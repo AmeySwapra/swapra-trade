@@ -5,10 +5,12 @@ import PageBanner from '../components/Common/PageBanner'
 import BreadCrumb from '../components/Common/BreadCrumb'
 import Train2Trade from '../components/Train2Trade'
 import Footer from '../components/Common/Footer'
+import ScrollToTop from '../components/Common/ScrollToTop'
 
 function AboutUsPage() {
   return (
     <>
+    <ScrollToTop/>
       <Topbar/>
       <Navbar/>
       <PageBanner heading="ABOUT US" />
